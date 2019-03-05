@@ -11,4 +11,8 @@
 * 阿里云禁用了25号端口，所以改用SSL连接的465端口
 * 获取报名信息需要先在网页提取出其他链接，并请求此链接获取报名信息
 * 在服务器的 /etc/crontab 中添加如下代码设置每20分钟执行一次
-> */20 * * * * root /usr/local/bin/python3 /usr/pythoncode/shancheng.py
+`*/20 * * * * root /usr/local/bin/python3 /usr/pythoncode/shancheng.py`
+
+
+####成功收到提示邮件
+![](https://i.imgur.com/DCx87nC.png)
